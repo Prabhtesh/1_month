@@ -65,10 +65,11 @@ export const Timeline: React.FC = () => {
   }, []);
 
   return (
+
     <section
       ref={sectionRef}
       className="relative w-full h-[100vh] overflow-hidden bg-pink-50"
-    >
+    > 
       <div
         ref={horizontalRef}
         className="flex w-max h-full items-center space-x-6 px-4 sm:px-10"

@@ -11,7 +11,7 @@ interface TimeLeft {
 export const Countdown: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [isVisible, setIsVisible] = useState(false);
-  const meetingDate = new Date('2025-07-29T00:00:00').getTime();
+  const meetingDate = new Date('2025-06-29T00:00:00').getTime();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
